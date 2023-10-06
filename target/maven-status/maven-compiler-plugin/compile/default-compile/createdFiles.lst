@@ -1,0 +1,12 @@
+com\flocash\fuel\FuleRepository.class
+com\flocash\fuel\FuleServices.class
+com\flocash\fuel\UserRepository.class
+com\flocash\fuel\UserDto.class
+com\flocash\fuel\FuleController.class
+com\flocash\fuel\Request.class
+com\flocash\fuel\FlocashFule.class
+com\flocash\fuel\FuelStation.class
+com\flocash\fuel\SecurityConfig.class
+com\flocash\fuel\MyGenerator.class
+com\flocash\fuel\UserData.class
+com\flocash\fuel\Response.class

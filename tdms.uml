@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.approver</OriginalElement>
+  <nodes>
+    <node x="633.0" y="548.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user</node>
+    <node x="348.0" y="162.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.request</node>
+    <node x="-116.35865724381622" y="905.1537102473499">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_type</node>
+    <node x="649.0" y="901.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.custodian</node>
+    <node x="372.0" y="-7.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.state_type</node>
+    <node x="880.5" y="781.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.department</node>
+    <node x="353.0" y="526.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_assignment</node>
+    <node x="-101.35865724381625" y="535.6731448763251">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset</node>
+    <node x="884.5" y="581.5">326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.approver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.department">
+      <point x="40.0" y="91.5" />
+      <point x="760.0" y="840.0" />
+      <point x="-79.5" y="-0.0" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.request" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.state_type">
+      <point x="0.0" y="-157.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.approver" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.department">
+      <point x="0.0" y="58.5" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_assignment" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset">
+      <point x="-87.0" y="-0.0" />
+      <point x="80.5" y="-0.0" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.approver" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user">
+      <point x="-75.5" y="-0.0" />
+      <point x="87.0" y="-0.0" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_assignment" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user">
+      <point x="87.0" y="-0.0" />
+      <point x="-87.0" y="-0.0" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.custodian" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.request" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset">
+      <point x="-92.0" y="-0.0" />
+      <point x="-20.858657243816282" y="323.6537102473498" />
+      <point x="0.0" y="-102.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.custodian" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_type">
+      <point x="-71.0" y="-0.0" />
+      <point x="95.5" y="-0.0" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_assignment" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.request">
+      <point x="0.0" y="-113.5" />
+      <point x="0.0" y="157.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.request" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.user">
+      <point x="92.0" y="-0.0" />
+      <point x="720.0" y="320.0" />
+      <point x="0.0" y="-91.5" />
+    </edge>
+    <edge source="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset" target="326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_type">
+      <point x="0.0" y="102.5" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="0.3614457831325301" x="468.0" y="507.5" />
+  <SelectedNodes>
+    <node>326f8116-2a02-4ef1-aecf-0cba1aad8164.TABLE:tdms.public.asset_type</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
